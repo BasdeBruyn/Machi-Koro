@@ -1,0 +1,81 @@
+#BordBackground{
+	-fx-background-image: url("MachiKoro_Bordspel_Leeg.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1920 1010;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#KoopKaart{
+     -fx-background-color: transparent;
+     -fx-graphic: url('KoopKaart_Button.png');
+     -fx-background-size: 64px 64px;
+ }
+
+#KoopKaart:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('KoopKaart_Button_Selected.png');
+}
+
+#EindeBeurt{
+    -fx-background-color: transparent;
+    -fx-graphic: url('EindeBeurt_Button.png');
+    -fx-background-size: 64px 64px;
+}
+
+#EindeBeurt:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('EindeBeurt_Button_Selected.png');
+}
+
+#TerugKnop{
+    -fx-background-color: transparent;
+    -fx-graphic: url('Terug_Button.png');
+}
+
+#TerugKnop:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('Terug_Button_Selected.png');
+}
+
+#KopenKnop{
+    -fx-background-color: transparent;
+    -fx-graphic: url('Kopen_Button.png');
+}
+
+#KopenKnop:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('Kopen_Button_Selected.png');
+}
+
+#VBoxBeziens{
+    -fx-background-image: url("Menu_TransparentBackground.png");
+    -fx-background-size: 1920 1010;
+    -fx-background-position: center center;
+}
+
+#BeziensPane{
+    -fx-background-color: transparent;
+}
+
+#MuteButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url('ToggleGeluid.png');
+}
+
+#MuteButton:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('ToggleGeluid_Selected.png');
+}
+
+#WinnaarPane{
+    -fx-background-color: transparent;
+}
+
+#SteelMuntenPane{
+    -fx-background-image: url('/resources/Knoppen/Menu_Background.png')
+}
+
+#KiesSpelerPane{
+    -fx-background-image: url('/resources/Knoppen/Menu_Background.png')
+}

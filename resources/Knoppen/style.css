@@ -1,0 +1,154 @@
+#paneBackground{
+    -fx-background-image: url("Menu_Background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1920 1010;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+#StartButton {
+	-fx-background-color: transparent;
+	-fx-graphic: url('SpelMaken_Button.png');
+}
+
+#StartButton:hover {
+	-fx-background-color: transparent;
+	-fx-graphic: url('SpelMaken_Button_Selected.png');
+}
+
+#JoinButton {
+	-fx-background-color: transparent;
+	-fx-graphic: url('JoinGame_Button.png');
+}
+
+#JoinButton:hover {
+	-fx-background-color: transparent;
+	-fx-graphic: url('JoinGame_Button_Selected.png');
+}
+
+#StartVBox {
+	-fx-padding: 400 0 400 200;
+}
+
+#VerderButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Verder_Button.png');
+	-fx-margin: 0 0 40 0;
+}
+#VerderButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Verder_Button_Selected.png');
+}
+
+.text-field{
+	-fx-font-size: 40;
+	-fx-text-fill: #14AADF;
+	-fx-font-weight: bold;
+	-fx-text-alignment: center
+}
+
+#NieuwSpelButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('NieuwSpel_Button.png');
+}
+
+#NieuwSpelButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('NieuwSpel_Button_Selected.png');
+}
+
+#SpelLadenButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('SpelLaden_Button.png');
+}
+
+#SpelLadenButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('SpelLaden_Button_Selected.png');
+}
+
+#LobbyBackground{
+	-fx-background-image: url("MachiKoro_Lobby_Background.png");
+    -fx-background-repeat: stretch;
+    -fx-background-size: 1920 1010;
+    -fx-background-position: center center;
+    -fx-effect: dropshadow(three-pass-box, black, 30, 0.5, 0, 0);
+}
+
+#StartLobbyButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Start_Button.png');
+}
+
+#StartLobbyButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Start_Button_Selected.png');
+}
+
+#ExitLobbyButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Exit_Button.png');
+}
+
+#ExitLobbyButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('Exit_Button_Selected.png');
+}
+
+#LobbyHBox{
+	-fx-padding: 1000 0 200 50;
+}
+
+#SteelMuntenButton{
+    -fx-background-color: transparent;
+    -fx-graphic: url('SteelMunten.png');
+}
+
+#SteelMuntenButton:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('SteelMunten_Selected.png');
+}
+
+#KiesSpeler{
+    -fx-background-color: transparent;
+    -fx-graphic: url('KiesSpeler.png');
+}
+
+#KiesSpeler:hover{
+    -fx-background-color: transparent;
+    -fx-graphic: url('KiesSpeler_Selected.png');
+}
+
+#ResetButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/Reset.png');
+}
+
+#ResetButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/Reset_Selected.png');
+}
+
+#RuilButton{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/Ruilen.png');
+}
+
+#RuilButton:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/Ruilen_Selected.png');
+}
+
+#BeeindigGooien{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/StopGooien.png');
+}
+
+#BeeindigGooien:hover{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/StopGooien_Selected.png');
+}
+
+#AantalOgenAchtergrond{
+	-fx-background-color: transparent;
+	-fx-graphic: url('/resources/Knoppen/OgenUitkomst_Background.png');
+}
